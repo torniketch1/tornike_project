@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>let's see if you resamble your zodiac sign</h1>
+    <div class="zodiacs">
+    <label for="zodiacSelect">Choose your zodiac sign:</label>
+    <select id="zodiacSelect" onchange="displayProsAndCons()">
+      <option value="aries">Aries</option>
+      <option value="taurus">Taurus</option>
+      <option value="gemini">Gemini</option>
+      <option value="cancer">Cancer</option>
+      <option value="leo">Leo</option>
+      <option value="virgo">Virgo</option>
+      <option value="libra">Libra</option>
+      <option value="scorpio">Scorpio</option>
+      <option value="sagittarius">Sagittarius</option>
+      <option value="capricorn">Capricorn</option>
+      <option value="aquarius">Aquarius</option>
+      <option value="pisces">Pisces</option>
+    </select>
+    </div>
+  
+    <div class="proscons">
+    <div id="prosConsContainer">
+      <h2>Pros and Cons</h2>
+      <p id="pros"></p>
+      <p id="cons"></p>
+    </div>
+    </div>
+</body>
+</html>
